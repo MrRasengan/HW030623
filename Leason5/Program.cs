@@ -4,3 +4,47 @@
 // 12 13 14 05
 // 11 16 15 06
 // 10 09 08 07
+
+int size = 5;
+int[,] array = new int[size, size];
+SpiralFillArray(array, size);
+PrintArray(array, size);
+
+void SpiralFillArray(int[,] array, int size)
+{
+    int value = 1;
+    int i = 0;
+    int j = 0;
+    while (value <= size * size)
+    {
+        array[i, j] = value;
+        if (i <= j + 1 && i + j < size - 1)
+            j++;
+        else if (i < j && i + j >= size - 1)
+            i++;
+        else if (i >= j && i + j > size - 1)
+            j--;
+        else
+            i--;
+        value++;
+    }
+}
+
+void PrintArray(int[,] array, int size)
+{
+    Console.WriteLine($"Массив, имющие разсер {size} x {size}, заполнен по спирали.");
+    Console.WriteLine();
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            if (array[i, j] < 10)
+            {
+                Console.Write("0" + array[i, j]);
+                Console.Write(" ");
+            }
+            else Console.Write(array[i, j] + " ");
+        }
+        Console.WriteLine();
+    }
+}

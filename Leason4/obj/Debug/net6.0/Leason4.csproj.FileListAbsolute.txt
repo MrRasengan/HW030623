@@ -1,0 +1,15 @@
+C:\GIT\HW030623\Leason4\bin\Debug\net6.0\Leason4.exe
+C:\GIT\HW030623\Leason4\bin\Debug\net6.0\Leason4.deps.json
+C:\GIT\HW030623\Leason4\bin\Debug\net6.0\Leason4.runtimeconfig.json
+C:\GIT\HW030623\Leason4\bin\Debug\net6.0\Leason4.dll
+C:\GIT\HW030623\Leason4\bin\Debug\net6.0\Leason4.pdb
+C:\GIT\HW030623\Leason4\obj\Debug\net6.0\Leason4.csproj.AssemblyReference.cache
+C:\GIT\HW030623\Leason4\obj\Debug\net6.0\Leason4.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT\HW030623\Leason4\obj\Debug\net6.0\Leason4.AssemblyInfoInputs.cache
+C:\GIT\HW030623\Leason4\obj\Debug\net6.0\Leason4.AssemblyInfo.cs
+C:\GIT\HW030623\Leason4\obj\Debug\net6.0\Leason4.csproj.CoreCompileInputs.cache
+C:\GIT\HW030623\Leason4\obj\Debug\net6.0\Leason4.dll
+C:\GIT\HW030623\Leason4\obj\Debug\net6.0\refint\Leason4.dll
+C:\GIT\HW030623\Leason4\obj\Debug\net6.0\Leason4.pdb
+C:\GIT\HW030623\Leason4\obj\Debug\net6.0\Leason4.genruntimeconfig.cache
+C:\GIT\HW030623\Leason4\obj\Debug\net6.0\ref\Leason4.dll
